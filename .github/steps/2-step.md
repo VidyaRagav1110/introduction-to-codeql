@@ -39,7 +39,6 @@ To see how Code Scanning works, we will introduce a vulnerability into the `rout
 1. If the job is still running, wait a few minutes for it to complete.
 
 1. Search the comments to find the results of the analysis.
-
    - Notice that the results found a SQL injection vulnerability. It also suggests a fix.
    - Don't worry about responding to this or resolving the problem (yet).
 
@@ -57,7 +56,7 @@ To see how Code Scanning works, we will introduce a vulnerability into the `rout
 
 1. Click on the workflow run with the name **PR #2** to open a page with more details.
 
-   <img width="500" alt="codeql setup" src="../images/codeql-setup.png"/>
+   <img width="500" alt="codeql setup" src="../images/codeql-pr2.png"/>
 
 1. Expand the run jobs by clicking **Show all jobs** then click on the **Analyze (python)** entry. The list of all workflow steps is now shown.
 
